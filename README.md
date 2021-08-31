@@ -22,6 +22,13 @@ Create REST APIs that
 - Returns a list of all the priority areas from the database
 - Accepts the order of priority along with the satisfaction rating for each area for a user and stores it in the database
 
+Technology Used:
+  - Java 11
+  - Spring Boot
+  - JPA/Hibernate
+  - MySQL 8.0
+  - For testing api - Postman
+
 API's 
 GET http://localhost:8080/priorities/categories/all-default
   - Gets all the categories in the database with default order
@@ -36,5 +43,8 @@ POST http://localhost:8080/priorities/rating-order
   
 POST http://localhost:8080/admin/categories/add
   - For the admin to add more categories
+
+Download and run in mysql [init.zip](https://github.com/RakeshKumar95/Wellness-Priorities/files/7086356/init.zip)
+
   
 There is no security implemented for this api as of now.
